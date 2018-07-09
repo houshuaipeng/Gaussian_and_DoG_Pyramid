@@ -138,7 +138,7 @@ void buildDoGPyramid( vector<Mat>& gpyr, vector<Mat>& dogpyr )
 
 int main( int argc, char** argv )
 {
-  src = imread( "C:/Users/14518/Desktop/毕业设计/用到的图片/test.jpg");
+  src = imread( "图片的路径");
   if( !src.data )
     { printf(" No data! -- Exiting the program \n");
       return -1; }
